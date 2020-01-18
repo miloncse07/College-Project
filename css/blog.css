@@ -1,0 +1,6 @@
+#services{
+	background: url("../img/home.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	height: 200px;
+}

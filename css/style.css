@@ -1,0 +1,85 @@
+.navbar{
+	background:#000;
+}
+.nav-item{
+	padding-left:1em;
+}
+.nav-link{
+	text-transform:uppercase;
+}
+.carousel-item{
+	height: 450px;
+}
+.carousel-img-1{
+	background:url("../img/pexels-photo-303383.jpeg");
+	background-size:cover;
+	height:500px;
+}
+.carousel-img-2{
+	background:url("../img/pexels-photo-1467277.jpeg");
+	background-size:cover;
+	height:500px;
+}
+.carousel-img-3{
+	background:url("../img/pexels-photo-191158.jpeg");
+	background-size:cover;
+	height:500px;
+}
+#one{
+	font-size: 50px;
+}
+#getstarted{
+	background: url("../img/over.jpg");
+	min-height: 250px;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position:relative;
+}
+.dark-overlay{
+	background:rgb(0,0,0,0.5);
+	width:100%;
+	height:100%;
+	top:0px;
+	left:0px;
+	position:absolute;
+}
+#hv{
+	background: url("../img/pexels-photo-145939.jpeg");
+	background-size: cover;
+	min-height: 250px;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	position:relative;
+}
+#two{
+	font-size:50px;
+}
+#gallery img{
+	min-height: 250px;
+}
+#copyright{
+	background: #000;
+}
+
+
+
+
+@media(max-width:767px){
+	.nav-item{
+		padding-left:0em;
+	}
+	#getstarted{
+		min-height: 300px;
+	}
+}
+@media(max-width:768px){
+		#getstarted{
+		min-height: 300px;
+	}
+}
+@media(max-width:480px){
+	.carousel h2{
+		font-size:2.5em;
+	}
+}
